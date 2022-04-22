@@ -1,6 +1,32 @@
 <!doctype html>
 <html>
 <head>
+    <style>
+        h1{
+            border-bottom:10px solid red;
+            padding:30px
+        }
+        
+        @media all and (min-width: 600px){
+            #container{
+            display:grid;
+            grid-template-columns:200px 1fr ;
+        }
+        @media all and (max-width: 600px){
+            body{
+                background-color: yellow;
+            }
+        }
+    
+            body{
+                font-family: 'Playfair Display', serif;
+            }
+    </style>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
+
 <title>WEB!!</title>
 <meta charset="utf-8">
 </head>
@@ -10,8 +36,18 @@
     <ol>
         <li><a href="1.html">html</a></li>
     </ol>
-
-
+    <div id="container">
+        <ol>
+            <li><a href="1.html">html</a></li>
+            <li><a href="2.html">css</a>></li>
+            <li>javascript</li>
+        </ol>
+        
+        <div>
+            <h2>html</h2>
+            WWW is <u>World <strong>Wide</strong> <a href="http://info.cern.ch/hypertext/WWW/TheProject.html">WEB</a></u>.<br>
+        </div>
+        </div>
     <h2>html</h2>
 
     html is ...
